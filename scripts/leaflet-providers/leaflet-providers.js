@@ -149,7 +149,7 @@
 			}
 		},
 		NaturalEarth: {
-			url: 'http://naturalearthtiles.lukasmartinelli.ch/tiles/natural_earth_shaded_relief.raster/{z}/{x}/{y}.png',
+			url: 'http://naturalearthtiles.lukasmartinelli.ch/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png',
 			options: {
 				maxZoom: 6,
 				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
