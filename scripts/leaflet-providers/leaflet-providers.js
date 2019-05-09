@@ -159,6 +159,8 @@
 			url: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png',
 			options: {
 				maxZoom: 10,
+				id: 'isawnyu.map-knmctlkh',
+				accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',				
 				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 			}
 		},	
@@ -166,10 +168,11 @@
 			url: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',
 			options: {
 				maxZoom: 10,
+				id: 'isawnyu.map-knmctlkh',
+				accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',				
 				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 			}
-		},	
-		
+		},		
 		OpenTopoMap: {
 			url: '//{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
 			options: {
