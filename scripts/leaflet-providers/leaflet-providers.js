@@ -142,7 +142,7 @@
 			}
 		},
 		RomanMap: {
-			url: 'http://pelagios.dme.ait.ac.at/tilesets/imperium//{z}/{x}/{y}.png',
+			url: 'https://klokantech.github.io/dare-raster-tiles/background/{z}/{x}/{y}.jpg',
 			options: {
 				maxZoom: 10,
 				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
