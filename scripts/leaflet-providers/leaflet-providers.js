@@ -629,10 +629,8 @@
 			url: 'http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png',
 			options: {
 				attribution: '<a href="http://geo.nls.uk/maps/">National Library of Scotland Historic Maps</a>',
-				bounds: [[49.6, -12], [61.7, 3]],
 				minZoom: 1,
 				maxZoom: 18,
-				subdomains: '0123',
 			}
 		}
 	};
