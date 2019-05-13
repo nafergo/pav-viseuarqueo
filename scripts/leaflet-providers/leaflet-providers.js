@@ -170,7 +170,7 @@
 				maxZoom: 10,
 				id: 'isawnyu.map-knmctlkh',
 				accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',				
-				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+				attribution: 'Tiles from &copy; 2013 <a href='http://www.awmc.unc.edu' target='_blank'>AWMC</a>, hosted on &copy; <a href='http://mapbox.com/' target='_blank'>MapBox</a>)'
 			}
 		},		
 		OpenTopoMap: {
