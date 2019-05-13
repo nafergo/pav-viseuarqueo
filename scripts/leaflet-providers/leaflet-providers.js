@@ -170,7 +170,7 @@
 				maxZoom: 10,
 				id: 'isawnyu.map-knmctlkh',
 				accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',				
-				attribution: 'Tiles from &copy; 2013 <a href='http://www.awmc.unc.edu' target='_blank'>AWMC</a>, hosted on &copy; <a href='http://mapbox.com/' target='_blank'>MapBox</a>)'
+				attribution: 'Tiles from &copy; 2013 <a href="http://www.awmc.unc.edu" target="_blank">AWMC (Ancient World Mapping Center)</a>, hosted on &copy; <a href="http://mapbox.com/" target="_blank">MapBox</a>)'
 			}
 		},		
 		OpenTopoMap: {
