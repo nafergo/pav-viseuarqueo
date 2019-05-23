@@ -159,7 +159,7 @@
 			url: 'http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png',
 			options: {
 				maxZoom: 10,
-				attribution: 'Digital Atlas of the Roman Empire (http://dare.ht.lu.se) | (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+				attribution: 'Map tiles from <a href="http://dare.ht.lu.se">Digital Atlas of the Roman Empire</a> | Shared under (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 			}
 		},		
 		AWMCum: {
