@@ -907,7 +907,7 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += '<a href="' + getSetting('_githubRepo') + '">Source code</a>';
+    credit += '<a href="' + getSetting('_githubRepo') + '">Code repository</a> |';
     if (getSetting('_codeCredit')) credit += '  ' + getSetting('_codeCredit');
     credit += ' Made with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
