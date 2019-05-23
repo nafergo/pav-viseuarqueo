@@ -141,7 +141,7 @@
 				attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
 			}
 		},
-		RomanMap: {
+		DigitalAtlasRomanEmpire: {
 			url: 'https://klokantech.github.io/dare-raster-tiles/background/{z}/{x}/{y}.jpg',
 			options: {
 				maxZoom: 10,
@@ -155,6 +155,13 @@
 				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 			}
 		},	
+		Pelagios: {
+			url: 'http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 10,
+				attribution: 'Digital Atlas of the Roman Empire (http://dare.ht.lu.se) | (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+			}
+		},		
 		AWMCum: {
 			url: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png',
 			options: {
