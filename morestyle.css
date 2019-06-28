@@ -1,1 +1,2 @@
 .pointer {font-family: 'Cinzel', serif;}
+.leaflet-touch .leaflet-control-attribution, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {}
