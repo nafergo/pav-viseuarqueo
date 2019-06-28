@@ -1,5 +1,8 @@
 .pointer {font-family: 'Cinzel', serif;}
-.leaflet-touch .leaflet-control-attribution, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {box-shadow: ;}
+.leaflet-touch .leaflet-control-attribution, .leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    box-shadow: 0 1px 5px rgba(0,0,0,0.4); border: 0px solid rgba(0,0,0,0.2);
+    }
+
 h3 {
     margin: 0;
     font-size: 3em;
