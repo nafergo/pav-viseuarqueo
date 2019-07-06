@@ -498,6 +498,15 @@
 					'{attribution.OpenStreetMap} &amp; USGS'
 			}
 		},
+		Voyager: {
+			url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+			options: {
+				maxZoom: 19,
+				subdomains: 'abcd',
+				attribution:
+					'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+			}
+		},				
 		CartoDB: {
 			url: 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/{variant}/{z}/{x}/{y}.png',
       url2: 'http://{s}.basemaps.cartocdn.com/{variant}/{z}/{x}/{y}.png',
