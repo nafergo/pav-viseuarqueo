@@ -141,45 +141,6 @@
 				attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
 			}
 		},
-		DigitalAtlasRomanEmpire: {
-			url: 'https://klokantech.github.io/dare-raster-tiles/background/{z}/{x}/{y}.jpg',
-			options: {
-				maxZoom: 10,
-				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-			}
-		},
-		NaturalEarth: {
-			url: 'http://naturalearthtiles.lukasmartinelli.ch/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png',
-			options: {
-				maxZoom: 6,
-				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-			}
-		},	
-		Pelagios: {
-			url: 'http://pelagios.org/tilesets/imperium/{z}/{x}/{y}.png',
-			options: {
-				maxZoom: 10,
-				attribution: 'Map tiles from <a href="http://dare.ht.lu.se">Digital Atlas of the Roman Empire</a> | Shared under (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-			}
-		},		
-		AWMCum: {
-			url: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png',
-			options: {
-				maxZoom: 10,
-				id: 'isawnyu.map-knmctlkh',
-				accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',				
-				attribution: 'Map data: {attribution.OpenStreetMap}, <a href="http://viewfinderpanoramas.org">SRTM</a> | Map style: &copy; <a href="https://opentopomap.org">OpenTopoMap</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
-			}
-		},	
-		AWMCdois: {
-			url: 'https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',
-			options: {
-				maxZoom: 10,
-				id: 'isawnyu.map-knmctlkh',
-				accessToken: 'pk.eyJ1IjoiaXNhd255dSIsImEiOiJBWEh1dUZZIn0.SiiexWxHHESIegSmW8wedQ',				
-				attribution: 'Tiles from &copy; 2013 <a href="http://www.awmc.unc.edu" target="_blank">AWMC (Ancient World Mapping Center)</a>, hosted on &copy; <a href="http://mapbox.com/" target="_blank">MapBox</a>)'
-			}
-		},		
 		OpenTopoMap: {
 			url: '//{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
 			options: {
@@ -552,9 +513,10 @@
 				PositronOnlyLabels: 'light_only_labels',
 				DarkMatter: 'dark_all',
 				DarkMatterNoLabels: 'dark_nolabels',
-				DarkMatterOnlyLabels: 'dark_only_labels'
+				DarkMatterOnlyLabels: 'dark_only_labels',
+				Voyager: 'voyager'				
 			}
-		},
+		},		
 		HikeBike: {
 			url: 'http://{s}.tiles.wmflabs.org/{variant}/{z}/{x}/{y}.png',
 			options: {
